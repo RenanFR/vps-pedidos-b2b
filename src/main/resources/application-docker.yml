@@ -1,0 +1,13 @@
+spring:
+  flyway:
+    locations: classpath:db/migration,classpath:db/seed
+
+app:
+  notifications:
+    demo-consumer:
+      enabled: true
+
+logging:
+  structured:
+    format:
+      console: ecs

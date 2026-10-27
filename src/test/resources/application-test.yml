@@ -1,0 +1,6 @@
+app:
+  notifications:
+    broker: test
+  outbox:
+    relay:
+      interval-ms: 3600000
